@@ -26,7 +26,7 @@ app.use(express.urlencoded({ extended: false }))
 //   origin: 'http://localhost:1337',
 //   methods: ['GET', 'POST', 'DELETE', 'UPDATE', 'PUT', 'PATCH'],
 // }
-app.use(cors(corsOptions))
+// app.use(cors(corsOptions))
 
 // Router 
 app.use(normal)
