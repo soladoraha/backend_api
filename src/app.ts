@@ -22,10 +22,10 @@ app.use(bodyParser.json())
 app.use(express.urlencoded({ extended: false }))
 
 // Set Cross 
-const corsOptions = {
-  origin: 'http://localhost:1337',
-  methods: ['GET', 'POST', 'DELETE', 'UPDATE', 'PUT', 'PATCH'],
-}
+// const corsOptions = {
+//   origin: 'http://localhost:1337',
+//   methods: ['GET', 'POST', 'DELETE', 'UPDATE', 'PUT', 'PATCH'],
+// }
 app.use(cors(corsOptions))
 
 // Router 
